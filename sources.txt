@@ -1,0 +1,10 @@
+# 上游播放列表地址：每行一个，# 开头为注释
+# 改这个文件并 push 即可调整采集源，无需改 Python 代码
+
+https://iptv-org.github.io/iptv/countries/cn.m3u
+https://live.zbds.top/tv/iptv4.m3u
+https://live.zbds.top/tv/iptv6.m3u
+https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/iptv.m3u
+
+# 全球全量（约上万条，跑一次较久，默认注释掉，需要时取消注释）
+# https://iptv-org.github.io/iptv/index.m3u
