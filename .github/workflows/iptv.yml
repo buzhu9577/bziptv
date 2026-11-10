@@ -7,9 +7,13 @@ on:
   workflow_dispatch:
     inputs:
       deep_top:
-        description: "ffprobe 深度复验的源数量（0 = 跳过）"
+        description: "ffprobe 判分辨率的候选上限（0 = 全部）"
         required: false
         default: "300"
+      min_mbps:
+        description: "最低下载速率 Mbps"
+        required: false
+        default: "4"
   # 兜底触发：改代码/源清单/工作流后 push 即跑一次。
   # paths 里不含 result.*，所以机器人自己的提交不会再触发，避免死循环。
   push:
@@ -41,17 +45,26 @@ jobs:
           python-version: "3.11"
 
       - name: 确认 ffmpeg 可用
-        run: ffmpeg -version | head -1
+        run: |
+          if ! command -v ffprobe >/dev/null; then
+            sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          fi
+          ffprobe -version | head -1
 
       - name: 采集并校验
         env:
           DEEP_TOP: ${{ inputs.deep_top || '300' }}
+          MIN_MBPS: ${{ inputs.min_mbps || '4' }}
         run: |
           python iptv_hunter.py \
             --sources sources.txt \
             --out result \
             --workers 48 \
             --timeout 6 \
+            --min-height 1080 \
+            --min-mbps "$MIN_MBPS" \
+            --speed-seconds 5 \
+            --strict-resolution \
             --deep-top "$DEEP_TOP"
 
       - name: 输出统计
