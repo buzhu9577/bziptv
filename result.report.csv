@@ -1,14 +1,16 @@
 ﻿频道,分组,分辨率,编码,测速Mbps,各次采样Mbps,TTFBms,采样KB,等级,连通延迟ms,类型,备注,地址
-河北卫视,地方卫视,2160P,h264,15.52,15.5/16.0,861,3685,S,1599,hls,,https://event.pull.hebtv.com/live/live101.m3u8
-浙江卫视,地方卫视,1080P,h264,55.51,55.5/57.2,96,1499,S,1229,hls,,http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8
-吉林卫视,地方卫视,1080P,h264,14.27,14.3/14.6,800,4096,S,793,hls,,http://221.7.175.154:8445/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&authid=0
-浙江卫视,地方卫视,1080P,h264,10.96,11.2/11.0,738,1991,S,1250,hls,,https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
-浙江卫视,地方卫视,1080P,h264,11.05,11.2/11.1,680,1991,S,731,hls,,http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8
-新疆卫视,地方卫视,1080P,h264,10.67,10.9/10.7,1066,4096,S,2108,hls,,http://120.70.60.179:9901/tsfile/live/1002_1.m3u8?authid=0&key=txiptv&playlive=1
-内蒙古卫视,地方卫视,1080P,h264,10.18,10.2/12.2,1017,2010,S,1657,hls,,http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
-东南卫视,地方卫视,1080P,h264,9.59,18.3/9.6,2271,4010,A,1249,hls,,http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
-东方卫视,地方卫视,1080P,h264,6.76,6.8/0.0,962,1644,A,1292,hls,,http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
-西藏卫视,地方卫视,1080P,h264,5.0,5.1/5.0,911,984,B,1754,hls,,https://live.vtibet.cn/live/ZYWS20261016.stream.m3u8
-东方卫视,地方卫视,1080P,h264,5.14,5.1/0.0,912,1064,B,1658,hls,,http://bp-resource-dfl.bestv.cn/148/3/video.m3u8
-江西卫视,地方卫视,1080P,h264,5.57,14.4/5.6,595,3456,B,7478,hls,波动大,http://112.27.5.218:9901/tsfile/live/faacts/0138_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV-13 新闻,央视,1080P,h264,12.26,12.3/13.2,675,2230,S,1340,hls,,http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8
+湖南卫视,地方卫视,2160P,hevc,16.08,20.9/16.1,415,1063,S,1646,hls,,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
+湖南卫视,地方卫视,2160P,hevc,13.59,13.6/126.3,475,1096,S,1209,hls,波动大,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
+东南卫视,地方卫视,1080P,h264,18.28,18.3/18.6,643,4096,S,1171,hls,,http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
+河北卫视,地方卫视,2160P,h264,11.79,11.8/18.4,1814,4096,S,1674,hls,,https://event.pull.hebtv.com/live/live101.m3u8
+内蒙古卫视,地方卫视,1080P,h264,9.71,14.7/9.7,1034,2304,A,2492,hls,,http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
+东方卫视,地方卫视,1080P,h264,8.53,8.5/12.2,741,1455,A,877,hls,,http://bp-resource-dfl.bestv.cn/148/3/video.m3u8
+浙江卫视,地方卫视,1080P,h264,8.91,8.9/56.2,1591,3841,A,1030,hls,波动大,http://ali-xwl.cztv.com/live/channel011080Plxw.m3u8
+浙江卫视,地方卫视,1080P,h264,7.77,7.8/9.7,1119,1991,A,1325,hls,,https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8?
+东方卫视,地方卫视,1080P,h264,7.28,7.3/12.3,875,1455,A,1230,hls,,https://bp-resource-dfl.bestv.cn/148/3/video.m3u8
+东方卫视,地方卫视,1080P,h264,6.36,6.6/6.4,756,1135,A,1054,hls,,http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
+浙江卫视,地方卫视,1080P,h264,6.43,10.1/6.4,1756,1991,A,1179,hls,,https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
+安徽卫视,地方卫视,1080P,,4.19,7.4/4.2,991,905,B,2051,hls,,https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8
+新疆卫视,地方卫视,1080P,h264,4.19,4.4/4.2,1022,1216,B,1062,hls,,http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd;http://218.84.12.186:8001/hls/main/playlist.m3u8zxinjd
+西藏卫视,地方卫视,1080P,h264,4.23,5.2/4.2,1128,921,B,2065,hls,,https://live.vtibet.cn/live/ZYWS20261016.stream.m3u8
+CCTV-13 新闻,央视,1080P,h264,11.99,12.0/12.7,674,2230,S,1167,hls,,http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8
